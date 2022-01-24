@@ -1,5 +1,5 @@
 ---
-title: Using pytest and Github in a django application
+title: Using pytest and Github Actions in a django application
 date: "2022-01-23T12:12:03.284Z"
 description: "Pytest and Github actions"
 ---
