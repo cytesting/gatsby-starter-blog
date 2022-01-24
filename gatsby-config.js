@@ -3,7 +3,7 @@ module.exports = {
     title: `Leonardo Martinez's Blog`,
     author: {
       name: `Leonardo Martinez`,
-      summary: `Tech enthusiast and pythonista.`,
+      summary: `. Tech enthusiast and pythonista.`,
     },
     description: `An opinionated blog.`,
     siteUrl: `https://leomartinez.gatsbyjs.io/`,
@@ -31,6 +31,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: "ubuntu",
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
